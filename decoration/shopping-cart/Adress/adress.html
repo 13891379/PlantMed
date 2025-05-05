@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="adress.css">
+    <title>address</title>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+        <form class="search" action="http://google.com/search" method="get">
+        <input class="searchbox" type="text" name="search" placeholder="search...">
+        </form>
+        <a href="https://www.noavarschool.ir/portal/onlineschool">
+        <img src="cart.png">
+        </a>
+        <hr>
+        <h1>Adress</h1>
+    <div class="reo">
+        <div class="select-box">
+            <select class="country">
+                <option value="" disabled selected>country</option>
+                <option value="iran">Iran</option>
+                <option value="usa">USA</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+                <option value="japan">Japan</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+       <form> <input class="city2" type="text" name="city" placeholder="city..."></form>
+       <form> <input class="adress" type="text" name="adress" placeholder="full adress..."></form>
+       <form> <input class="number" type="text" name="number" placeholder="phone number..."></form>
+       <form> <input class="name" type="text" name="name" placeholder="Name of the recipient..."></form>
+       <button class="fin">finalize</button>
+    </div>
+</body>
+</html>

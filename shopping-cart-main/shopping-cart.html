@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="shopping-cart.css">
+  <title>shopping-cart</title>
+</head>
+<body>
+ <div class="header">
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+  <form action="http://google.com/search" method="get">
+    <input type="text" name="search" placeholder="search...">
+  </form>
+  <a href="https://www.noavarschool.ir/portal/onlineschool">
+  </a>
+</div>
+<br><br>
+  <div class="flexbox1">
+    <div class="flexbox2">
+    <a href="Adress/adress.html">
+      <button class="adress">Adress</button>
+    </a>
+    <a href="Pay/pay.html">
+      <button class="pay">Pay</button>
+    </a>
+    </div>
+    <div class="flexbox3">
+      <div class="product-details">
+        <p class="head">Balian</p>
+        <p class="price">Price:$19.99</p>
+        <p class="some-text">Keep it in warm place with a good sunshine</p>
+        <hr>
+        <p class="some-text2">Ghange its soil every 6 months</p>
+      </div>
+      <div class="product-image">
+              <img class="plant" src="indoor-plant.jpg" alt="plant">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <h3>Contact us</h3><p class="go">We are always ready to help you with any issues!<br><br>
+      <a>phone: 09*********<br>Email: exsample@gmail.com <br> Address: Street Name , Bulding 222, Tehran</a> </p>
+  </div>
+</body>
+</html>

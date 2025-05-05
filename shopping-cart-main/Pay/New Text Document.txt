@@ -1,0 +1,25 @@
+ <button type="button" class="collapsible">آبیاری</button>
+        <div class="content"></div>
+        <button type="button" class="collapsible">نوردهی</button>
+        <div class="content"></div>
+        <button type="button" class="collapsible">سم پاشی</button>
+        <div class="content"></div>
+        <button type="button" class="collapsible">کوددهی</button>
+        <div class="content"></div>
+
+
+
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+---------------------------------------------------------
+ <img class="plant" src="plants.jpg" alt="plant">

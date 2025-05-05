@@ -1,0 +1,72 @@
+.flexbox-container {
+  background-color: rgb(167, 177, 129);
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+
+  width: 90%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.flexbox-item {
+  margin: 5px;
+  font-size: 30px;
+  height: 400px;
+  border: solid #bbb315;
+}
+
+.item1 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  background-color: #4566a0;
+  order: 3;
+}
+
+.item2 {
+  width: 60%;
+  border: solid #225699;
+  background-color: rgb(122, 131, 89);
+  order: 2;
+}
+
+.item3 {
+  width: 25%;
+  order: 1;
+  .btn {
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #282a35;
+    color: white;
+    position: relative;
+  }
+  .ribbon {
+    width: 40px;
+    font-size: 10px;
+    padding: 2px;
+    position: absolute;
+    right: -20px;
+    top: -9px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #ff9800;
+    color: white;
+  }
+  .Chat-box {
+    font-size: small;
+    margin: 5px;
+  }
+}
+
+.chat-containor {
+  height: 65%;
+}
+img{
+  height: 800px;
+}

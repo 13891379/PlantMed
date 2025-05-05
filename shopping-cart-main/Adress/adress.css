@@ -1,0 +1,127 @@
+.reo {
+    background-color:#ACE1AF;
+    width: 300px;
+    height:350px;
+    border: 5px solid;
+    padding: 50px;
+    margin:auto;
+}
+body {
+    background-color: rgb(162,194,132);
+}
+h1{
+    display: inline;
+    padding-right:200px;
+}
+.search{
+    display: inline-block;
+    padding-right:200px;
+  .searchbox{
+        width: 500px;
+        height:50px;
+        background-color: #4B6F44;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+        margin-left: 100px;
+    }
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  #main {
+    transition:margin-left .5s;
+    padding:16px;
+    display:inline;
+  }
+  
+img{
+    width:40px;
+    height:auto;
+}
+.city2 {
+    background-color:#00A693;
+    margin:11px;
+    color:#004526;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.country {
+    margin: 11px;
+    background-color: #50C878;
+}
+.adress {
+    background-color:#00AD83;
+    margin:11px;
+    color:#004526;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.number {
+    background-color: #00AB66;
+    margin:11px;
+    color:#004526;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fin {
+    width:185px;
+    height:65px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 100px;
+    margin-left: 53px;
+    background-color: #01411C;
+    color:antiquewhite;
+}
+.name{
+    background-color:#018749;
+    margin:11px;
+    color:#004526;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color:#002D62;
+    font-size:80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

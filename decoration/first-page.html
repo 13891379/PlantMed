@@ -1,0 +1,192 @@
+;<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="first-page.css">
+			<title class="title">First page</title>
+		</head>
+		<body>
+			<div class="header">
+			<div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a href="#">About</a>
+				<a href="#">Services</a>
+				<a href="#">Clients</a>
+				<a href="#">Contact</a>
+			  </div>
+			  <div id="main">
+				<button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+			  </div>
+			  
+			  <script>
+			  function openNav() {
+				document.getElementById("mySidebar").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			  }
+			  
+			  function closeNav() {
+				document.getElementById("mySidebar").style.width = "0";
+				document.getElementById("main").style.marginLeft= "0";
+			  }
+			  </script>
+			<form action="http://google.com/search" method="get">
+			<input type="text" name="search" placeholder="search...">
+			</form>
+			<a href="shopping-cart/shopping-cart-main/shopping-cart.html">
+			<button class="n13"><img src="picturs/download.png"></button>
+			</a>
+		</div>
+		<br><br>
+			<div class="flexbox-container">
+				<div class="flexbox-item flexbox-item-1 content">
+					<button type="button" class="collapsible">plantsize</button>
+					<div class="content">
+						<br>
+						<input type="checkbox" id="li1"/>
+						<label for="li1"/>Small</label>
+						<input type="checkbox" id="li2"/>
+						<br>
+						<label for="li2"/>Medium</label>
+						<input type="checkbox" id="li3"/>
+						<br>
+						<label for="li3"/>Large</label>
+					</div>
+					<button type="button" class="collapsible">flowertype</button>
+					<div class="content">
+						<input type="checkbox" id="le1"/>
+						<label for="le1">Maple</label>
+						<br>
+						<input type="checkbox" id="le2"/>
+						<label for="le2">Pine</label>
+						<br>
+						<input type="checkbox" id="le3"/>
+						<label for="le3"> Elm</label>
+						<br>
+						<input type="checkbox" id="le4"/>
+						<label for="le4">Ficus</label>
+						<br>
+						<input type="checkbox" id="le5"/>
+						<label for="le5">Juniper</label>
+						<br>
+						<input type="checkbox" id="le6"/>
+						<label for="le6">Bonsai</label>
+						<br>
+						<input type="checkbox" id="le7"/>
+						<label for="le7">Ginkgo</label>
+						<br>
+						<input type="checkbox" id="le8"/>
+						<label for="le8">PHILODENDRON</label>
+						<br>
+						<input type="checkbox" id="le9"/>
+						<label for="le9"> zamiifolia</label>
+					</div>
+					<script>
+							var coll = document.getElementsByClassName("collapsible");
+							var i;
+							
+							for (i = 0; i < coll.length; i++) {
+							  coll[i].addEventListener("click", function() {
+								this.classList.toggle("active");
+								var content = this.nextElementSibling;
+								if (content.style.display === "block") {
+								  content.style.display = "none";
+								} else {
+								  content.style.display = "block";
+								}
+							  });
+							}
+							</script>
+				</div>
+				<div class="flexbox-item flexbox-item-2">
+				 <p class="accessory-text">Accessory</p>
+				  <div class="flexbox-container">
+					<div class="flexbox-item flexbox-item-11">
+						<img src="picturs/pot9.jpg" alt="plant.com" style="width:100%">
+						<h1 class="model">sea vase</h1>
+						<p class="price">54.98$</p>
+						<p class="code">code number:5861</p>
+						<p class="color">color code:60583</p>
+						<p class="explanation">quality:High/material:Clay/volume:5L</p>
+						<p><button class="cart">Add to Cart+</button></p>
+					  </div>	
+					  <div class="flexbox-item flexbox-item-22">
+						<img src="picturs/straw-pot5.jpg" alt="plant.com" style="width:100%;height:54%">
+						<h1 class="model">Straw Jug</h1>
+						<p class="price">54.98$</p>
+						<p class="code">code number:5861</p>
+						<p class="color">color code:586188</p>
+						<p class="explanation">quality:Medium/material:Straw/volume:2.5L</p>
+						<p><button class="cart">Add to Cart+</button></p>
+					  </div>
+				  </div>
+				  <div class="flexbox-container">
+					<div class="flexbox-item flexbox-item-111">
+						<img src="picturs/indoor7.jpg" alt="plant media" style="width: 100%;">
+                        <h1 class="model">Triangle pottery</h1>
+						<p class="price">100.77$</p>
+						<p class="code">code number:9041</p>
+						<p class="color">color code:907853</p>
+						<p class="explanation">quality:High/material:metal/volume:6L</p>
+						<p><button class="cart">Add to Cart+</button></p>
+					  </div>	
+					  <div class="flexbox-item flexbox-item-222">
+						<img src="picturs/sprinkler3.jpg" alt="plant media" style="width: 100%;">
+						<h1 class="model">Sprinkler</h1>
+						<p class="price">50.50$</p>
+						<p class="code">code number:3094</p>
+						<p class="color">color code:209645</p>
+						<p class="explanation">quality:Low/material:metal/volume:0.6L</p>
+						<p><button class="cart">Add to Cart+</button></p>
+					  </div>
+				  </div>	
+				</div>
+				
+				<div class="flexbox-item flexbox-item-3">
+					<p class="flex-text">Other Fittings</p>
+					<div class="flexbox-container">
+						<div class="flexbox-item flexbox-item-33">
+						<img src="picturs/vase.webp" alt="plant.com" style="width:100%">
+						<h1 class="model">cyan</h1>
+						<p class="price">$90.90</p>
+						<p class="code">Code number:2209</p>
+						<p class="color">Color code:784520</p>
+						<p class="explanation">quality:Small-Medium-Large/material:Seramic/volume:0.5L</p>
+					    <p><button class="cart">Add to Cart+</button></p>
+						</div>	
+						<div class="flexbox-item flexbox-item-44">
+						<img src="picturs/pot5.jpg" alt="plant.com" style="width:100%;height:53%">
+						<h1 class="model">Indoor plant vase</h1>
+						<p class="price">$47.80</p>
+						<p class="code">code number:8854</p>
+						<p class="color">color code:239670</p>
+						<p class="explanation">Quality:High/Material:Seramic/Volume:3L</p>
+						<p><button class="cart">Add to Cart+</button></p>
+						</div>
+					  </div>
+					<div class="flexbox-container">
+						<div class="flexbox-item-55">
+						<img src="picturs/lighting1.jpg" alt="plant media" style="width: 100%;">
+						<h1 class="model">Artificial Lighting</h1>
+						<p class="price">107.87$</p>
+						<p class="code">code number:8126</p>
+						<p class="color">color code:1927</p>
+						<p class="explanation">quality:High/material:Lighting/Mass:0.5kg</p>
+						<p><button class="cart">Add to Cart+</button></p>
+						</div>
+					<div class="flexbox-item-66">
+						<img src="picturs/stand2.jpg" alt="plant media" style="width: 100%;">
+						<h1 class="model">Indoor plant stand</h1>
+						<p class="price">98.00$</p>
+						<p class="code">code number:5643</p>
+						<p class="color">color code:77776</p>
+						<p class="explanation">quality:Medium/material:Iron/Mass:3.5kg</p>
+						<p><button class="cart">Add to Cart+</button></p>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<h3>Contact us</h3><p class="go">We are always ready to help you with any issues!<br><br>
+				  <a>phone: 09*********<br>Email: exsample@gmail.com <br> Address: Street Name , Bulding 222, Tehran</a> </p>
+			  </div>
+		</body>
+	</html>

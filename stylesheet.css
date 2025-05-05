@@ -1,0 +1,132 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color:rgb(162,194,132);
+    margin: 0;
+  }
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display:block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #fa32ad;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding:  5px;
+    border: none;
+    margin: 15px;
+   display: inline;
+    
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  .paranoid{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-inline-end: 15px;
+    display:inline ;
+    width:700px;
+    height:40px;
+    border-radius: 20px;
+   
+    }
+.icon-bar {
+  position: fixed;
+  bottom: 5%;
+	left: 1%;
+  transform: translateY(-50%);
+  }
+.icon-bar a{
+  display: block;
+  text-align: center;
+  transition: all0 0.3s ease;
+  }
+.button{
+  color:aliceblue;
+  }
+.header{
+	background-color:#096e4f;
+	padding:2%;
+  display: flex;
+ }
+
+.footer{
+  margin-top: 20%;
+  color:white;
+  background-color: #096e4f;
+	padding:3px;
+  text-align: center;
+  }
+
+.button{
+  border-radius: 55px;
+  width: 60px;
+  padding: 15%;
+  }
+.ax{
+	border-radius:8px;
+	width:35px;
+}
+ .back{
+	margin:50px;
+	font-size:20px;
+	color:black;
+	}
+ .go{
+	margin:25px;
+	font-size:18px;}
+.mySlides{
+	height:500px;
+	width:100%;}
+.uu {
+  border: #096e4f;
+  width: 445px;
+  height:500px;
+  display: flex;
+  }
+.flexbox-container {
+  display: flex;
+
+  }
+.flexbox-item{
+  border:2px solid black;
+
+}
+.xx{
+  background-color: #096e4f;
+  border: none;
+}
+.z{
+  padding-left: 5%;
+}

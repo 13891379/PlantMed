@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>sara_sa6</title>
+    <link rel="stylesheet" href="../styles/moshkel2.css">
+    
+  </head>  
+<body>
+  <div class="header">
+
+    <div class="flexbox-container">
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">Personal account</a>
+      <a href="#">Equipment</a>
+      <a href="#">Diagnose the problem</a>
+      <a href="#">How to care for the plant</a>
+      <a href="#">Plant decoration</a>
+    </div>
+   
+    
+    <div id="main">
+      <button class="openbtn"  onclick="openNav()" >☰ Open Sidebar</button>  
+    
+    <input type="text" class="paranoid" placeholder="Search..">
+    <button class="xx"><img class="ax" src="../photos/sara28.png"></button>
+    </div>
+    </div> 
+
+    <h2>We are here to help</h2>
+    <p>Solve the problems easly with plant.media!.</p>
+  </div>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+  <div id="box">
+  <!-- Dropdown for selecting an option -->
+  <label for="plant name">plant name:</label>
+  <select id="plant-name" name="plant-name">
+      <option value="cactus">cactus</option>
+      <option value="piromia">piromia</option>
+      <option value="jadeplant">jadeplant</option>
+      <option value="rose">rose</option>
+      </select>
+  </select>
+  <br><br>
+  <!-- Dropdown for selecting an option -->
+  <label for="plant color">plant color:</label>
+  <select id="plant-color" name="plant color">
+      <option value="cactus">red-brown</option>
+      <option value="piromia">green-white</option>
+      <option value="jadeplant">purple-green</option>
+      <option value="rose">yellow-green</option>
+  </select>
+  <br><br>
+  <form>
+    <label for="fname">shape:
+   </label><br>
+   <input type="text" id="fname"
+          name="fname"><br>
+          <label for="lname">size:
+   </label><br>
+ <input type="text" id="lname"
+        name="lname">
+ </form><br>
+
+ <p>plant situation now</p>
+ <!-- Dropdown for selecting an option -->
+ <label  for="plant color">plant color:</label>
+ <select id="plant-color2" name="plant-color2">
+     <option value="cactus">red-brown</option>
+     <option value="piromia">green-white</option>
+     <option value="jadeplant">purple-green</option>
+     <option value="rose">yellow-green</option>
+ </select>
+ <br><br>
+ <!-- Dropdown for selecting an option -->
+ <label for="plant color">plant insects:</label>
+ <select id="plant-insects" name="plant-insects"r>
+     <option value="cactus">cockroach</option>
+     <option value="piromia">grasshopper</option>
+     <option value="jadeplant">aphid</option>
+     <option value="rose">termite</option>
+ </select>
+ <br><br>
+ <form>
+  <label for="fname">shape:
+ </label><br>
+ <input type="text" id="fname"
+        name="fname"><br>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <br><br>
+        <button>submit</button>
+</div>
+<div id="matn">
+ <h2>Avaliable items</h2>
+<p>choose one of this itemso solve your problem.</p>
+</div>
+<div class="container">
+  <img src="../photos/ope.jpg" alt="Avatar" style="width:90px">
+  <P><span><button>opertors</button></span></P>
+  <p><div class="ope"><br>you can connect to our opertors.</p>
+</div>
+</div>
+ <div class="container">
+  <img src="../photos/ai.jpg" alt="Avatar" style="width:90px">
+  <button><a href="chat2.html"> supporter!</button></a>
+  <p><div class="ai"><br>you can gat help from our AI supporter.</p>
+</div>
+</div>
+<div class="ad-container">
+  <img src="../photos/your.ad.image.jpg" alt="Subscribe for Two Months">
+  <div class="ad-text"><button> buy now!</button></div>
+</div>
+<div class="ad2-container">
+<img src="../photos/own2.jpg" alt="create">
+<button><a href="sign up.html"> create now!</a></button>
+</div> 

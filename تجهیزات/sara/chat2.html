@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="flex-chat.css">
+    <link rel="stylesheet" href="chat2.css">
+</head>
+
+<body>
+
+    <div class="flexbox-container ">
+        <div class="flexbox-item item1">
+            <img src="planttt.jpg" alt="plant">
+        </div>
+        <div class="flexbox-item item2">
+            <div class="chat-container">
+                <div class="chat-box" id="chatBox">
+                    <div class="message received">سلام!</div>
+                    <div class="message sent">سلام!</div>
+                    <div class="message received">چه کمکی می تونم بهتون بکنم؟</div>
+                    <div class="message sent">من در زمینه ابیاری گیاه کمک می خواهم!</div>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="messageInput" placeholder="Type a message...">
+                    <button onclick="sendMessage()">&#10148;</button>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="flexbox-item item3">
+            <div class="Chat-box">
+                <h1>chat box</h1>
+            </div><br>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <input type="submit" value="submit">
+                </form><br><br>
+
+                <button class="btn">water supply time!<span class="ribbon">NEW</span></button>
+                <button class="btn">plant light!<span class="ribbon">NEW</span></button>
+                <button class="btn">plant soil!<span></span></button>
+                <button class="btn">special care!<span class="ribbon">NEW</span></button>
+                <button class="btn">Equipment!<span></span></button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../script/chat-script.js">
+
+    </script>
+</body>
+
+</html>

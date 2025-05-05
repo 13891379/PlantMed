@@ -1,0 +1,147 @@
+body {
+  background-color: #ace1af;
+}
+h1 {
+  display: inline;
+  padding-right: 200px;
+}
+form {
+  display: inline-block;
+  padding-right: 200px;
+  input {
+    width: 500px;
+    height: 50px;
+    background-color: #4b6f44;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 100px;
+  }
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  display:inline;
+}
+
+.basket {
+  border-radius:8px;
+  width:35px;
+
+}
+.flexbox1 {
+  display: flex;
+}
+.flexbox2 {
+  width: 40%;
+  display:flex;
+  flex-direction: column;
+}
+.flexbox3 {
+  width: 60%;
+  border: black solid 1px;
+  background-color: darkcyan;
+  display: flex;
+}
+.adress {
+  padding: 20%;
+  background-color: maroon;
+  width:80%;
+  margin:auto;
+}
+.pay {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: maroon;
+  width: 80%;
+  margin:auto;
+}
+.head{
+  font-size:30px;
+  color:rgb(180, 131, 66);
+  margin:10%;
+}
+.price{
+  font-size:20px;
+  color:#002D62;
+  margin:10%;
+}
+.some-text{
+  font-size:20px;
+  color:#002D62;
+  margin:10%;
+}
+.some-text2{
+  font-size:20px;
+  color:#002D62;
+  margin:10%;
+}
+.product-details{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.product-image{
+  width: 70%;
+}
+.plant {
+  width: 100%;
+  margin-right: 0;
+}
+.header{
+  display: flex;
+  padding: 20px;
+  background-color:#096e4f;
+}
+.footer{
+  margin-top: 20%;
+  color:white;
+  background-color: #096e4f;
+  padding:5px;
+  display: block;
+  text-align: center;
+}
